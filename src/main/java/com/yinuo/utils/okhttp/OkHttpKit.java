@@ -8,6 +8,7 @@ import java.util.Map;
 /**
  * @author liang
  * @create 2020-06-29 19:56
+ * @deprecated 推荐使用cn.hutool.http.HttpUtil
  */
 public class OkHttpKit {
 

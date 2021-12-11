@@ -4,6 +4,7 @@ package com.yinuo.utils.security;
  * md5 类实现了RSA Data Security, Inc.在提交给IETF 的RFC1321中的MD5 message-digest 算法�?
  * 可使用Md5Kit或直接使用java中的encodeHex方法
  *************************************************/
+// TODO 将相关告警剔除
 @Deprecated
 public class MD5 {
     /*

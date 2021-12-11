@@ -3,6 +3,7 @@ package com.yinuo.utils.okhttp;
 /**
  * @author liang
  * @create 2020-06-29 18:38
+ * @deprecated 推荐使用cn.hutool.http.HttpUtil
  */
 public class ProxyConfigurer {
     private boolean enable;

@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.TimeUnit;
 
+import cn.hutool.http.HttpUtil;
 import okhttp3.FormBody;
 import okhttp3.FormBody.Builder;
 import okhttp3.Headers;
@@ -23,7 +24,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
  * 针对应用为简化雷同代码对OkHttp做的浅层封装
  * 
  * @author liangliang
- *
+ * @deprecated 推荐使用cn.hutool.http.HttpUtil
  */
 public class OkHttpUtils {
 	private OkHttpClient okHttpClient;

@@ -7,6 +7,7 @@ import javax.net.ssl.X509TrustManager;
 
 /**
  * @author liang
+ * @deprecated 推荐使用cn.hutool.http.HttpUtil
  */
 public class TrustAllCerts implements X509TrustManager {
     @Override  
